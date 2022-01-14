@@ -10,4 +10,36 @@ public class Student {
     private int numberOfCredits = 0;
     private double gpa = 0.0;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getId() {
+        return studentId;
+    }
+
+    private void setId(Integer id) {
+        this.studentId = id;
+    }
+
+    public Integer getCredits(){
+        return numberOfCredits;
+    }
+
+    public void setCredits(Integer credits){
+        this.numberOfCredits = credits;
+    }
+
+    public Double getGpa(){
+        return gpa;
+    }
+
+    public void setGpa(Double gpa){
+        this.gpa = gpa;
+    }
+
 }
